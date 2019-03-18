@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BAC34894A85B1045EED3B91 /* libPods-TM_Scoket  服务器UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BF4F7816B58F5F811D6483 /* libPods-TM_Scoket  服务器UITests.a */; };
+		651EF2DD223F5DF7001EF05C /* img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 651EF2DB223F5DF7001EF05C /* img.jpg */; };
+		651EF2E4223F6545001EF05C /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 651EF2E3223F6545001EF05C /* video.mp4 */; };
+		65550B21223F5A2A00D84D27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65550B20223F5A2A00D84D27 /* AppDelegate.m */; };
+		65550B24223F5A2A00D84D27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65550B23223F5A2A00D84D27 /* ViewController.m */; };
+		65550B27223F5A2A00D84D27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65550B25223F5A2A00D84D27 /* Main.storyboard */; };
+		65550B29223F5A2B00D84D27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65550B28223F5A2B00D84D27 /* Assets.xcassets */; };
+		65550B2C223F5A2B00D84D27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65550B2A223F5A2B00D84D27 /* LaunchScreen.storyboard */; };
+		65550B2F223F5A2B00D84D27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65550B2E223F5A2B00D84D27 /* main.m */; };
+		65550B39223F5A2B00D84D27 /* TM_Scoket_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65550B38223F5A2B00D84D27 /* TM_Scoket_____Tests.m */; };
+		65550B44223F5A2B00D84D27 /* TM_Scoket_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65550B43223F5A2B00D84D27 /* TM_Scoket_____UITests.m */; };
+		8BE948E04B4E7B5C53313E24 /* libPods-TM_Scoket  服务器.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D64AA451CBFDE738142D1AA /* libPods-TM_Scoket  服务器.a */; };
+		95A808413B0B6568BF700EF6 /* libPods-TM_Scoket  服务器Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CBEB92E4D884EE02B3A37A /* libPods-TM_Scoket  服务器Tests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65550B35223F5A2B00D84D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65550B14223F5A2A00D84D27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65550B1B223F5A2A00D84D27;
+			remoteInfo = "TM_Scoket  服务器";
+		};
+		65550B40223F5A2B00D84D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65550B14223F5A2A00D84D27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65550B1B223F5A2A00D84D27;
+			remoteInfo = "TM_Scoket  服务器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FE5C60B25255C39B3E87C81 /* Pods-TM_Scoket  服务器.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TM_Scoket  服务器.release.xcconfig"; path = "Pods/Target Support Files/Pods-TM_Scoket  服务器/Pods-TM_Scoket  服务器.release.xcconfig"; sourceTree = "<group>"; };
+		1D64AA451CBFDE738142D1AA /* libPods-TM_Scoket  服务器.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TM_Scoket  服务器.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21CBEB92E4D884EE02B3A37A /* libPods-TM_Scoket  服务器Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TM_Scoket  服务器Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63BF4F7816B58F5F811D6483 /* libPods-TM_Scoket  服务器UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TM_Scoket  服务器UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		651EF2DB223F5DF7001EF05C /* img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img.jpg; sourceTree = "<group>"; };
+		651EF2E3223F6545001EF05C /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		65550B1C223F5A2A00D84D27 /* TM_Scoket  服务器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TM_Scoket  服务器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65550B1F223F5A2A00D84D27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		65550B20223F5A2A00D84D27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		65550B22223F5A2A00D84D27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		65550B23223F5A2A00D84D27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		65550B26223F5A2A00D84D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65550B28223F5A2B00D84D27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65550B2B223F5A2B00D84D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65550B2D223F5A2B00D84D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65550B2E223F5A2B00D84D27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65550B34223F5A2B00D84D27 /* TM_Scoket  服务器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TM_Scoket  服务器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65550B38223F5A2B00D84D27 /* TM_Scoket_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TM_Scoket_____Tests.m"; sourceTree = "<group>"; };
+		65550B3A223F5A2B00D84D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65550B3F223F5A2B00D84D27 /* TM_Scoket  服务器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TM_Scoket  服务器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65550B43223F5A2B00D84D27 /* TM_Scoket_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TM_Scoket_____UITests.m"; sourceTree = "<group>"; };
+		65550B45223F5A2B00D84D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86F87760BADD59FF9DA1C885 /* Pods-TM_Scoket  服务器UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TM_Scoket  服务器UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TM_Scoket  服务器UITests/Pods-TM_Scoket  服务器UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C9C631ACAAF7A2EF198C54C /* Pods-TM_Scoket  服务器UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TM_Scoket  服务器UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TM_Scoket  服务器UITests/Pods-TM_Scoket  服务器UITests.release.xcconfig"; sourceTree = "<group>"; };
+		A16CA49E2AF37A1A91CD129F /* Pods-TM_Scoket  服务器Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TM_Scoket  服务器Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TM_Scoket  服务器Tests/Pods-TM_Scoket  服务器Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E406DA4CBB2F047CBC402920 /* Pods-TM_Scoket  服务器.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TM_Scoket  服务器.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TM_Scoket  服务器/Pods-TM_Scoket  服务器.debug.xcconfig"; sourceTree = "<group>"; };
+		E9093EEB405DACDB3A0E92B9 /* Pods-TM_Scoket  服务器Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TM_Scoket  服务器Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TM_Scoket  服务器Tests/Pods-TM_Scoket  服务器Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65550B19223F5A2A00D84D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE948E04B4E7B5C53313E24 /* libPods-TM_Scoket  服务器.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65550B31223F5A2B00D84D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A808413B0B6568BF700EF6 /* libPods-TM_Scoket  服务器Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65550B3C223F5A2B00D84D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BAC34894A85B1045EED3B91 /* libPods-TM_Scoket  服务器UITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3937FC6375AF9AD773D070F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E406DA4CBB2F047CBC402920 /* Pods-TM_Scoket  服务器.debug.xcconfig */,
+				0FE5C60B25255C39B3E87C81 /* Pods-TM_Scoket  服务器.release.xcconfig */,
+				A16CA49E2AF37A1A91CD129F /* Pods-TM_Scoket  服务器Tests.debug.xcconfig */,
+				E9093EEB405DACDB3A0E92B9 /* Pods-TM_Scoket  服务器Tests.release.xcconfig */,
+				86F87760BADD59FF9DA1C885 /* Pods-TM_Scoket  服务器UITests.debug.xcconfig */,
+				8C9C631ACAAF7A2EF198C54C /* Pods-TM_Scoket  服务器UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		651EF2DA223F5DF7001EF05C /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				651EF2E3223F6545001EF05C /* video.mp4 */,
+				651EF2DB223F5DF7001EF05C /* img.jpg */,
+			);
+			path = Img;
+			sourceTree = "<group>";
+		};
+		65550B13223F5A2A00D84D27 = {
+			isa = PBXGroup;
+			children = (
+				65550B1E223F5A2A00D84D27 /* TM_Scoket  服务器 */,
+				65550B37223F5A2B00D84D27 /* TM_Scoket  服务器Tests */,
+				65550B42223F5A2B00D84D27 /* TM_Scoket  服务器UITests */,
+				65550B1D223F5A2A00D84D27 /* Products */,
+				3937FC6375AF9AD773D070F2 /* Pods */,
+				C3731B3F97DF49CC8DEA2EDE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		65550B1D223F5A2A00D84D27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65550B1C223F5A2A00D84D27 /* TM_Scoket  服务器.app */,
+				65550B34223F5A2B00D84D27 /* TM_Scoket  服务器Tests.xctest */,
+				65550B3F223F5A2B00D84D27 /* TM_Scoket  服务器UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65550B1E223F5A2A00D84D27 /* TM_Scoket  服务器 */ = {
+			isa = PBXGroup;
+			children = (
+				65550B1F223F5A2A00D84D27 /* AppDelegate.h */,
+				65550B20223F5A2A00D84D27 /* AppDelegate.m */,
+				65550B22223F5A2A00D84D27 /* ViewController.h */,
+				65550B23223F5A2A00D84D27 /* ViewController.m */,
+				65550B25223F5A2A00D84D27 /* Main.storyboard */,
+				65550B28223F5A2B00D84D27 /* Assets.xcassets */,
+				65550B2A223F5A2B00D84D27 /* LaunchScreen.storyboard */,
+				651EF2DA223F5DF7001EF05C /* Img */,
+				65550B2D223F5A2B00D84D27 /* Info.plist */,
+				65550B2E223F5A2B00D84D27 /* main.m */,
+			);
+			path = "TM_Scoket  服务器";
+			sourceTree = "<group>";
+		};
+		65550B37223F5A2B00D84D27 /* TM_Scoket  服务器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				65550B38223F5A2B00D84D27 /* TM_Scoket_____Tests.m */,
+				65550B3A223F5A2B00D84D27 /* Info.plist */,
+			);
+			path = "TM_Scoket  服务器Tests";
+			sourceTree = "<group>";
+		};
+		65550B42223F5A2B00D84D27 /* TM_Scoket  服务器UITests */ = {
+			isa = PBXGroup;
+			children = (
+				65550B43223F5A2B00D84D27 /* TM_Scoket_____UITests.m */,
+				65550B45223F5A2B00D84D27 /* Info.plist */,
+			);
+			path = "TM_Scoket  服务器UITests";
+			sourceTree = "<group>";
+		};
+		C3731B3F97DF49CC8DEA2EDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D64AA451CBFDE738142D1AA /* libPods-TM_Scoket  服务器.a */,
+				21CBEB92E4D884EE02B3A37A /* libPods-TM_Scoket  服务器Tests.a */,
+				63BF4F7816B58F5F811D6483 /* libPods-TM_Scoket  服务器UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65550B1B223F5A2A00D84D27 /* TM_Scoket  服务器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65550B48223F5A2B00D84D27 /* Build configuration list for PBXNativeTarget "TM_Scoket  服务器" */;
+			buildPhases = (
+				ABAE4EF0897AFC0B5D97CDC1 /* [CP] Check Pods Manifest.lock */,
+				65550B18223F5A2A00D84D27 /* Sources */,
+				65550B19223F5A2A00D84D27 /* Frameworks */,
+				65550B1A223F5A2A00D84D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TM_Scoket  服务器";
+			productName = "TM_Scoket  服务器";
+			productReference = 65550B1C223F5A2A00D84D27 /* TM_Scoket  服务器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65550B33223F5A2B00D84D27 /* TM_Scoket  服务器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65550B4B223F5A2B00D84D27 /* Build configuration list for PBXNativeTarget "TM_Scoket  服务器Tests" */;
+			buildPhases = (
+				83648CD74F9839BAA54CFD8B /* [CP] Check Pods Manifest.lock */,
+				65550B30223F5A2B00D84D27 /* Sources */,
+				65550B31223F5A2B00D84D27 /* Frameworks */,
+				65550B32223F5A2B00D84D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65550B36223F5A2B00D84D27 /* PBXTargetDependency */,
+			);
+			name = "TM_Scoket  服务器Tests";
+			productName = "TM_Scoket  服务器Tests";
+			productReference = 65550B34223F5A2B00D84D27 /* TM_Scoket  服务器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65550B3E223F5A2B00D84D27 /* TM_Scoket  服务器UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65550B4E223F5A2B00D84D27 /* Build configuration list for PBXNativeTarget "TM_Scoket  服务器UITests" */;
+			buildPhases = (
+				83A8338205400DA0CEE7CF55 /* [CP] Check Pods Manifest.lock */,
+				65550B3B223F5A2B00D84D27 /* Sources */,
+				65550B3C223F5A2B00D84D27 /* Frameworks */,
+				65550B3D223F5A2B00D84D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65550B41223F5A2B00D84D27 /* PBXTargetDependency */,
+			);
+			name = "TM_Scoket  服务器UITests";
+			productName = "TM_Scoket  服务器UITests";
+			productReference = 65550B3F223F5A2B00D84D27 /* TM_Scoket  服务器UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65550B14223F5A2A00D84D27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = TeeMo;
+				TargetAttributes = {
+					65550B1B223F5A2A00D84D27 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					65550B33223F5A2B00D84D27 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 65550B1B223F5A2A00D84D27;
+					};
+					65550B3E223F5A2B00D84D27 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 65550B1B223F5A2A00D84D27;
+					};
+				};
+			};
+			buildConfigurationList = 65550B17223F5A2A00D84D27 /* Build configuration list for PBXProject "TM_Scoket  服务器" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65550B13223F5A2A00D84D27;
+			productRefGroup = 65550B1D223F5A2A00D84D27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65550B1B223F5A2A00D84D27 /* TM_Scoket  服务器 */,
+				65550B33223F5A2B00D84D27 /* TM_Scoket  服务器Tests */,
+				65550B3E223F5A2B00D84D27 /* TM_Scoket  服务器UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65550B1A223F5A2A00D84D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65550B2C223F5A2B00D84D27 /* LaunchScreen.storyboard in Resources */,
+				651EF2E4223F6545001EF05C /* video.mp4 in Resources */,
+				65550B29223F5A2B00D84D27 /* Assets.xcassets in Resources */,
+				65550B27223F5A2A00D84D27 /* Main.storyboard in Resources */,
+				651EF2DD223F5DF7001EF05C /* img.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65550B32223F5A2B00D84D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65550B3D223F5A2B00D84D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83648CD74F9839BAA54CFD8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TM_Scoket  服务器Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83A8338205400DA0CEE7CF55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TM_Scoket  服务器UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABAE4EF0897AFC0B5D97CDC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TM_Scoket  服务器-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65550B18223F5A2A00D84D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65550B24223F5A2A00D84D27 /* ViewController.m in Sources */,
+				65550B2F223F5A2B00D84D27 /* main.m in Sources */,
+				65550B21223F5A2A00D84D27 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65550B30223F5A2B00D84D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65550B39223F5A2B00D84D27 /* TM_Scoket_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65550B3B223F5A2B00D84D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65550B44223F5A2B00D84D27 /* TM_Scoket_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65550B36223F5A2B00D84D27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65550B1B223F5A2A00D84D27 /* TM_Scoket  服务器 */;
+			targetProxy = 65550B35223F5A2B00D84D27 /* PBXContainerItemProxy */;
+		};
+		65550B41223F5A2B00D84D27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65550B1B223F5A2A00D84D27 /* TM_Scoket  服务器 */;
+			targetProxy = 65550B40223F5A2B00D84D27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65550B25223F5A2A00D84D27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65550B26223F5A2A00D84D27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65550B2A223F5A2B00D84D27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65550B2B223F5A2B00D84D27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65550B46223F5A2B00D84D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		65550B47223F5A2B00D84D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65550B49223F5A2B00D84D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E406DA4CBB2F047CBC402920 /* Pods-TM_Scoket  服务器.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TM_Scoket  服务器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TeeMo.TM-Scoket-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65550B4A223F5A2B00D84D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FE5C60B25255C39B3E87C81 /* Pods-TM_Scoket  服务器.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TM_Scoket  服务器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TeeMo.TM-Scoket-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65550B4C223F5A2B00D84D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A16CA49E2AF37A1A91CD129F /* Pods-TM_Scoket  服务器Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TM_Scoket  服务器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TeeMo.TM-Scoket-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TM_Scoket  服务器.app/TM_Scoket  服务器";
+			};
+			name = Debug;
+		};
+		65550B4D223F5A2B00D84D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9093EEB405DACDB3A0E92B9 /* Pods-TM_Scoket  服务器Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TM_Scoket  服务器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TeeMo.TM-Scoket-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TM_Scoket  服务器.app/TM_Scoket  服务器";
+			};
+			name = Release;
+		};
+		65550B4F223F5A2B00D84D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86F87760BADD59FF9DA1C885 /* Pods-TM_Scoket  服务器UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TM_Scoket  服务器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TeeMo.TM-Scoket-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TM_Scoket  服务器";
+			};
+			name = Debug;
+		};
+		65550B50223F5A2B00D84D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C9C631ACAAF7A2EF198C54C /* Pods-TM_Scoket  服务器UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TM_Scoket  服务器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TeeMo.TM-Scoket-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TM_Scoket  服务器";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65550B17223F5A2A00D84D27 /* Build configuration list for PBXProject "TM_Scoket  服务器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65550B46223F5A2B00D84D27 /* Debug */,
+				65550B47223F5A2B00D84D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65550B48223F5A2B00D84D27 /* Build configuration list for PBXNativeTarget "TM_Scoket  服务器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65550B49223F5A2B00D84D27 /* Debug */,
+				65550B4A223F5A2B00D84D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65550B4B223F5A2B00D84D27 /* Build configuration list for PBXNativeTarget "TM_Scoket  服务器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65550B4C223F5A2B00D84D27 /* Debug */,
+				65550B4D223F5A2B00D84D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65550B4E223F5A2B00D84D27 /* Build configuration list for PBXNativeTarget "TM_Scoket  服务器UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65550B4F223F5A2B00D84D27 /* Debug */,
+				65550B50223F5A2B00D84D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65550B14223F5A2A00D84D27 /* Project object */;
+}
